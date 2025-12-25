@@ -28,6 +28,8 @@ function App() {
 
             <Hero />
             <Routes>
+              <Route path="/" element={"/home"}></Route>
+
               <Route
                 path="/login"
                 element={<PageNotFound title="Login" />}
