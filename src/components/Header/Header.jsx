@@ -23,7 +23,7 @@ const Header = () => {
               style={{ maxHeight: "100px" }}
               navbarScroll
             >
-              <Nav.Link href="#home" className="navLinkColor">
+              <Nav.Link to="/" href="#home" className="navLinkColor">
                 Home
               </Nav.Link>
 

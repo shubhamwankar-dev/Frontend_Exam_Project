@@ -28,7 +28,7 @@ function App() {
 
             <Hero />
             <Routes>
-              <Route path="/" element={"/home"}></Route>
+              <Route path="/" element={<Hero />}></Route>
 
               <Route
                 path="/login"
